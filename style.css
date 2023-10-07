@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+   
+}
+#nav{
+    height: 6rem;
+    width: 100vw;
+    border: 2px solid 
+    #f5f5f5;
+    /* position: fixed; */
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #A1D1FF; */
+    /* position: fixed; */
+}
+
+#logo{
+    position: relative;
+    left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo img{
+    height: 5rem;
+    width: 10rem;
+}
+#logo img:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bi-amazon{
+    font-size: 3.5rem;
+    padding: 4px;
+   
+}
+#all{
+    height: 50%;
+    width: 5%;
+    position: relative;
+    margin-top: 1.3rem;
+    /* border: 2px solid blue; */
+    background-color:  #e3e6e6;
+    color: white;
+    left: 3.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+}
+.dropdown button:hover{
+    color: black;
+}
+
+.search{
+    position: relative;
+    margin-top: 1rem;
+    width: 39%;
+    right: 2rem;
+    padding: 3px;
+    height: 10%;
+    border-radius: 0px 8px 8px 0;
+}
+.account{
+    position: relative;
+    right: 4rem;
+    list-style: none;
+    display: flex;justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.account li a{
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+}
+.account li ul li a:hover{
+    text-decoration: underline;
+}
+#return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 6%;
+    padding: 4px;
+    cursor: pointer;
+}
+#return h3{
+    font-size: 1.4rem;
+    /* text-transform: uppercase; */
+}
+#cart{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 8%;
+    width: 6%;
+    cursor: pointer;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+}
+#cart img{
+
+    height: 6rem;
+    width: 3rem;
+
+}
+#cart h4{
+    position: relative;
+    top: 0.6rem;
+    font-weight: 500;
+}
+#cart:hover{
+    border: 2px solid black;
+}
+.d-flex input{
+    border-radius: 6px;
+    font-size: 1.4rem;
+}
+.d-flex button{
+    color: black;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+
+.icon{
+    
+    position: relative;
+    right: 10%;
+    /* border: 2px solid black; */
+    width: 10%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    
+   
+}
+.icon i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#logo:hover{
+    border: 2px solid  rgb(255, 255, 255);
+}
+#return:hover{
+    border: 2px solid black;
+}
+#return h3:hover{
+    font-size: 1.5rem;
+}
+
+#category
+{
+    height: 10rem;
+    width: 90%;
+    border: 2px solid  #f5f5f5;
+    position: relative;
+    /* top: 0.5rem; */
+    left: 5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+}
+.element{
+    height: 80%;
+    width:10%;
+    /* border: 2px solid magenta; */
+    margin: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.element h3{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+#carouselExampleDark{
+    margin-top: 2rem;
+}
+.carousel-item{
+    height: 18rem;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar a{
+    border: 2px solid black;
+}
+.sidebar  a img{
+    height: 2rem;
+    
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
