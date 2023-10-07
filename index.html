@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Ecommerce Website </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="page1">
+
+        <div id="nav" >
+
+            <div id="logo" class="nav-ele">
+                <img src="ekart.webp" alt="logo">
+            </div>
+            <div class="sidebar">
+                <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                   <h4>All</h4>
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                </div>
+            </div>
+           
+            <div class="search">
+                <form class="d-flex nav-ele" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for Products ,Brand and More "
+                        aria-label="Search">
+                    <div class="icon"><i class="bi bi-search"></i></div>
+                </form>
+            </div>
+            <div class="account nav-ele">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./sign-up/sign.html">Sign-Up</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./log-in/log.html">Log-In</a></li>
+                    </ul>
+                </li>
+
+            </div>
+            <div id="return" class="nav-ele">
+                <h3>Order & Return </h3>
+            </div>
+            <div id="cart" class="nav-ele">
+                <!-- <i class="bi bi-cart4"></i> -->
+                <img src="./images/cart.svg" alt="cart">
+                <h4>cart</h4>
+            </div>
+
+        </div>
+        <div id="category">
+            <div class="element" id="box1">
+                <img src="./images/electronic.webp" alt="electronic">
+                <h3>electronic</h3>
+            </div>
+            <div class="element">
+                <img src="./images/furniture.webp" alt="furniture">
+                <h3>furniture</h3>
+            </div>
+            <div class="element">
+                <img src="./images/appliances.webp" alt="appliances">
+                <h3>appliances</h3>
+            </div>
+            <div class="element"><img src="./images/grocery.webp" alt="grocery">
+                <h3>grocery</h3>
+            </div>
+            <div class="element"><img src="./images/phone.webp" alt="phone">
+                <h3>phone</h3>
+            </div>
+            <div class="element"><img src="./images/toys.webp" alt="toys">
+                <h3>toys</h3>
+            </div>
+            <div class="element"><img src="./images/bike.webp" alt="bike">
+                <h3>bike</h3>
+            </div>
+        </div>
+        <div id="slidshow">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/slide_img_01.jpg" class="d-inline w-100" alt="slideimages">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slide_img_02.jpg" class="d-block w-100" alt="slideimages">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide_img_03.jpg" class="d-block w-100" alt="slideimages">
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="electronic">
+
+            </div>
+        </div>
+        <footer>
+            
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
