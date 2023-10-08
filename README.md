@@ -1,3 +1,2 @@
 # Ecommerce_website
 
-seminar
